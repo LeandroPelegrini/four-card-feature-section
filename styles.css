@@ -17,6 +17,14 @@
     color: var(--VeryDarkBlue);
 }
 
+html.transition,
+html.transition *,
+html.transition *:before,
+html.transition *:after {
+  transition: cubic-bezier(0.68, -0.55, 0.27, 01.55) 420ms!important;
+  transition-delay: 0!important;
+}
+
 body {
     background-color: var(--VeryLightGray);
     padding-top: 5em;
